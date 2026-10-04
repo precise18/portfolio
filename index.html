@@ -3,206 +3,204 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Paballo Precision Malepa — Software Developer</title>
-  <meta name="description" content="Software developer building purposeful tools for real people." />
+  <title>Paballo Precision Malepa — Software Engineering Student</title>
+  <meta name="description" content="Paballo Malepa is a Software Engineering student at WeThinkCode_ in Johannesburg, building cloud and data-driven projects with Python, Java and AWS." />
+  <meta name="theme-color" content="#FF4F8B" />
+  <meta property="og:title" content="Paballo Precision Malepa — Software Engineering Student" />
+  <meta property="og:description" content="Cloud, code and curiosity. Portfolio of Paballo Malepa." />
+  <meta property="og:image" content="paballo.jpg" />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='28' fill='%23FF4F8B'/><text x='50' y='70' font-size='62' text-anchor='middle' font-family='Georgia,serif' font-weight='bold' fill='%231D1217'>P</text></svg>" />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,800&family=Fraunces:ital,opsz,wght@1,9..144,400&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
+  <a href="#main" class="skip-link">Skip to content</a>
 
-  <!-- ===== NAVIGATION ===== -->
   <header class="nav">
-    <div class="nav-inner">
-      <a href="#top" class="logo">Paballo<span>.</span></a>
-      <button class="menu-toggle" aria-label="Toggle menu">☰</button>
-      <nav class="nav-links">
-        <a href="#about">About</a>
-        <a href="#services">What I Do</a>
-        <a href="#work">Projects</a>
-        <a href="#contact">Contact</a>
-      </nav>
-    </div>
+    <a href="#top" class="logo">paballo<span>*</span></a>
+    <button class="menu-toggle" aria-label="Toggle menu" aria-expanded="false" aria-controls="nav-links">☰</button>
+    <nav class="nav-links" id="nav-links" aria-label="Main">
+      <a href="#about">About</a>
+      <a href="#work">Projects</a>
+      <a href="#journey">Journey</a>
+      <a href="#certs">Certificates</a>
+      <a href="#contact" class="nav-cta">Say hi</a>
+    </nav>
   </header>
 
-  <!-- ===== HERO ===== -->
+  <main id="main">
+
+  <!-- HERO -->
   <section id="top" class="hero">
-    <div class="hero-inner">
-
-      <!-- Portrait photo -->
-      <div class="portrait">
-        <img src="paballo.jpg" alt="Portrait of Paballo Precision Malepa" />
+    <div class="wrap hero-grid">
+      <div>
+        <p class="pill">● Open to opportunities · Johannesburg, ZA</p>
+        <h1>Paballo<br><span class="hl">Malepa</span><em>.</em></h1>
+        <p class="hero-sub">Software Engineering student at <strong>WeThinkCode_</strong> turning ideas into <em>cloud-backed, data-smart</em> tools people actually use.</p>
+        <div class="hero-cta">
+          <a href="#work" class="btn btn-hot">See my work ↓</a>
+          <a href="mailto:precisionmalepa@gmail.com" class="btn btn-ink">Email me</a>
+        </div>
       </div>
-
-      <p class="eyebrow">Software Developer · South Africa</p>
-      <h1>Hi, I'm Paballo.<br>I build <em>software</em> that solves real problems.</h1>
-      <p class="hero-sub">
-        Purposeful tools, clean code, and a genuine interest in making things
-        that people actually need. Currently building, learning, and open to opportunities.
-      </p>
-      <div class="hero-cta">
-        <a href="#work" class="btn btn-primary">See my projects</a>
-        <a href="#contact" class="btn btn-ghost">Get in touch</a>
+      <div class="hero-pin">
+        <div class="arch"><img src="paballo.jpg" alt="Portrait of Paballo Precision Malepa" width="360" height="360" /></div>
+        <span class="sticker st1">☁ AWS</span>
+        <span class="sticker st2">Python 🐍</span>
+        <span class="sticker st3">✦ Java</span>
+        <span class="spin" aria-hidden="true">✺</span>
       </div>
     </div>
-    <div class="hero-blob"></div>
   </section>
 
-  <!-- ===== ABOUT ===== -->
+  <div class="marquee" aria-hidden="true">
+    <div class="track">
+      <span>Python ✺ Java ✺ JavaScript ✺ AWS ✺ Git ✺ Linux ✺ SQL ✺ NLP ✺ Serverless ✺ </span>
+      <span>Python ✺ Java ✺ JavaScript ✺ AWS ✺ Git ✺ Linux ✺ SQL ✺ NLP ✺ Serverless ✺ </span>
+    </div>
+  </div>
+
+  <!-- ABOUT -->
   <section id="about" class="section">
-    <div class="container">
-      <p class="section-label">About</p>
-      <h2>A developer who cares about the why.</h2>
-      <p class="about-text">
-        I'm Paballo, a software developer based in South Africa. I build tools and
-        applications that solve real problems — the kind of software that makes
-        someone's day a little easier or a little clearer.
-      </p>
-      <p class="about-text">
-        I'm early in my journey, and I'm honest about that. What I bring is care,
-        attention to detail, and a genuine curiosity for how things work. I'd rather
-        build something thoughtful that someone actually uses than something flashy
-        that nobody needs.
-      </p>
-    </div>
-  </section>
-
-  <!-- ===== WHAT I DO ===== -->
-  <section id="services" class="section section-alt">
-    <div class="container">
-      <p class="section-label">What I Do</p>
-      <h2>How I can help.</h2>
-      <div class="grid grid-3">
-        <div class="card">
-          <div class="card-icon">✦</div>
-          <h3>Build Web Apps</h3>
-          <p>Front-end and full-stack applications — from idea to something people can open in a browser and use.</p>
-        </div>
-        <div class="card">
-          <div class="card-icon">✎</div>
-          <h3>Design & Structure</h3>
-          <p>Planning how software should work before writing a line of code. Wireframes, flows, and logic.</p>
-        </div>
-        <div class="card">
-          <div class="card-icon">♡</div>
-          <h3>Solve Small Problems</h3>
-          <p>Tools that make everyday tasks easier. If there's a problem worth solving, there's probably a small app for it.</p>
-        </div>
+    <div class="wrap about-grid">
+      <div>
+        <p class="label">01 — About</p>
+        <h2>Curious by default. <em>Careful</em> by habit.</h2>
+      </div>
+      <div class="about-copy">
+        <p>I'm a Software Engineering student at WeThinkCode_ with hands-on experience in Python, Java, Git, Linux and project-based development. I care about the why behind what I build — and I'd rather ship something thoughtful than something flashy.</p>
+        <p>Outside the terminal I lead people: as a Recruitment Ambassador Supervisor I coordinate teams, workshops and digital-inclusion initiatives. Cloud technologies are where my curiosity is pointed next.</p>
+        <ul class="stats">
+          <li><b>2</b><span>shipped projects</span></li>
+          <li><b>6</b><span>certificates</span></li>
+          <li><b>5</b><span>languages</span></li>
+        </ul>
       </div>
     </div>
   </section>
 
-  <!-- ===== PROJECTS ===== -->
-  <section id="work" class="section">
-    <div class="container">
-      <p class="section-label">Projects</p>
+  <!-- PROJECTS -->
+  <section id="work" class="section section-pink">
+    <div class="wrap">
+      <p class="label">02 — Selected work</p>
       <h2>Things I've built.</h2>
 
-      <div class="grid grid-2">
+      <article class="project">
+        <div class="shot"><img src="gittrack.jpg" alt="GitTrack dashboard with student totals, bar chart and donut chart" loading="lazy" /></div>
+        <div class="project-body">
+          <span class="num">/01</span>
+          <h3>GitTrack</h3>
+          <p>A serverless analytics dashboard tracking student coding activity — commits and merge requests — in near real time. Built for a Cloud Computing elective to get hands-on with AWS architecture.</p>
+          <ul class="chips"><li>AWS Lambda</li><li>API Gateway</li><li>DynamoDB</li><li>S3</li></ul>
+          <a href="https://github.com/precise18/GitTrack" target="_blank" rel="noopener" class="arrow-link">View on GitHub <i>↗</i></a>
+        </div>
+      </article>
 
-        <!-- Project 1: GitTrack -->
-        <article class="project">
-          <div class="project-thumb project-thumb-pink">
-            <span>GitTrack</span>
-          </div>
-          <div class="project-body">
-            <span class="tag">Project</span>
-            <h3>GitTrack</h3>
-            <p>
-              A serverless analytics dashboard that tracks student coding activity —
-              commits and merge requests — in real time. Built for a Cloud Computing
-              elective to get hands-on experience with AWS architecture.
-            </p>
-            <p class="project-meta">AWS Lambda · API Gateway · DynamoDB · S3 · Serverless</p>
-            <a href="https://github.com/precise18/GitTrack.git" target="_blank" rel="noopener" class="project-link">View on GitHub →</a>
-          </div>
-        </article>
+      <article class="project flip">
+        <div class="shot"><img src="elective-compass.jpg" alt="Elective Compass app with elective picker, quiz, heatmap and survey tabs" loading="lazy" /></div>
+        <div class="project-body">
+          <span class="num">/02</span>
+          <h3>Elective Compass</h3>
+          <p>An NLP tool that helps WeThinkCode_ students choose electives with evidence, not guesswork — matching course syllabi to 70 real job ads and calibrating against survey data from 36 students.</p>
+          <ul class="chips"><li>Python</li><li>Streamlit</li><li>TF-IDF</li><li>Cosine similarity</li></ul>
+          <a href="https://github.com/precise18/elective-compass" target="_blank" rel="noopener" class="arrow-link">View on GitHub <i>↗</i></a>
+        </div>
+      </article>
+    </div>
+  </section>
 
-        <!-- Project 2: Elective Compass -->
-        <article class="project">
-          <div class="project-thumb project-thumb-cream">
-            <span>Elective Compass</span>
-          </div>
-          <div class="project-body">
-            <span class="tag">Project</span>
-            <h3>Elective Compass</h3>
-            <p>
-              An NLP-powered recommendation tool that helps WeThinkCode students choose
-              their elective with evidence instead of guesswork. Matches course syllabi
-              to real job postings and calibrates results against survey data from 36 students.
-            </p>
-            <p class="project-meta">Python · Streamlit · TF-IDF · Cosine Similarity · NLP</p>
-            <a href="https://github.com/precise18/elective-compass.git" target="_blank" rel="noopener" class="project-link">View on GitHub →</a>
-          </div>
-        </article>
-
-        <!-- Placeholder: invites new clients/collaborators -->
-        <article class="project project-placeholder">
-          <div class="project-thumb project-thumb-cream">
-            <span>What's next?</span>
-          </div>
-          <div class="project-body">
-            <span class="tag tag-soft">Open</span>
-            <h3>Let's build something</h3>
-            <p>
-              This spot is waiting for the next project. If you have a problem worth
-              solving, or a team worth joining, let's talk.
-            </p>
-            <a href="#contact" class="project-link">Start a conversation →</a>
-          </div>
-        </article>
-
+  <!-- JOURNEY -->
+  <section id="journey" class="section">
+    <div class="wrap">
+      <p class="label">03 — Journey</p>
+      <h2>Where I've been <em>& where I'm at.</em></h2>
+      <div class="cols">
+        <div>
+          <h3 class="col-title">Experience</h3>
+          <ol class="timeline">
+            <li class="now">
+              <time>Jul 2026 — Present</time>
+              <h4>Recruitment Ambassador Supervisor</h4><span class="org">WeThinkCode_</span>
+              <p>Supervise and coordinate Recruitment Ambassadors supporting recruitment and digital-inclusion initiatives, including team responsibilities, workshops, communication and facilitator support.</p>
+            </li>
+            <li>
+              <time>Oct 2025 — Jul 2026</time>
+              <h4>Recruitment Ambassador</h4><span class="org">WeThinkCode_</span>
+              <p>Ran digital literacy workshops, supported community members with technology, and helped with recruitment, outreach and workshop delivery.</p>
+            </li>
+          </ol>
+        </div>
+        <div>
+          <h3 class="col-title">Education</h3>
+          <ol class="timeline">
+            <li class="now">
+              <time>Oct 2025 — Present</time>
+              <h4>Occupational Certificate in Software Engineering</h4><span class="org">WeThinkCode_</span>
+              <p>Software design, development, testing and Agile project management.</p>
+            </li>
+            <li>
+              <time>Jun 2023 — Sep 2025</time>
+              <h4>National Diploma in Civil Engineering</h4><span class="org">Tshwane North TVET College</span>
+              <p>Quantity Surveying, Building Administration, Building Structural Surveying and Construction.</p>
+            </li>
+          </ol>
+        </div>
       </div>
     </div>
   </section>
 
-  <!-- ===== SKILLS ===== -->
-  <section id="skills" class="section section-alt">
-    <div class="container">
-      <p class="section-label">Skills & Tools</p>
+  <!-- SKILLS -->
+  <section id="skills" class="section section-ink">
+    <div class="wrap">
+      <p class="label">04 — Toolbox</p>
       <h2>What I work with.</h2>
-      <ul class="skills">
-        <li>HTML & CSS</li>
-        <li>JavaScript</li>
-        <li>Python</li>
-        <li>Git & GitHub</li>
-        <li>Responsive Design</li>
-        <li>APIs</li>
-        <li>AWS (Lambda, S3, DynamoDB)</li>
-        <li>Problem Solving</li>
-        <li>Figma</li>
-        <li>Netlify / Vercel</li>
-      </ul>
+      <div class="skill-grid">
+        <div><h3>Languages</h3><ul class="chips big"><li>Python</li><li>Java</li><li>JavaScript</li><li>HTML</li><li>CSS</li></ul></div>
+        <div><h3>Cloud & Data</h3><ul class="chips big"><li>AWS Lambda</li><li>S3</li><li>DynamoDB</li><li>API Gateway</li><li>Relational DBs</li></ul></div>
+        <div><h3>Workflow</h3><ul class="chips big"><li>Git & GitHub</li><li>Linux</li><li>Bash</li><li>Debugging</li><li>Documentation</li></ul></div>
+      </div>
     </div>
   </section>
 
-  <!-- ===== CONTACT ===== -->
+  <!-- CERTIFICATES -->
+  <section id="certs" class="section">
+    <div class="wrap">
+      <p class="label">05 — Certificates</p>
+      <h2>Proof I keep <em>learning.</em></h2>
+      <div class="cert-grid">
+        <article class="cert"><span class="issuer">WeThinkCode_</span><h3>GenAI Course</h3><span class="cert-tag">AI</span></article>
+        <article class="cert"><span class="issuer">AWS Educate</span><h3>Cloud 101</h3><span class="cert-tag">Cloud</span></article>
+        <article class="cert"><span class="issuer">AWS Educate</span><h3>Compute Services</h3><span class="cert-tag">Cloud</span></article>
+        <article class="cert"><span class="issuer">AWS Educate</span><h3>Storage</h3><span class="cert-tag">Cloud</span></article>
+        <article class="cert"><span class="issuer">AWS Educate</span><h3>AWS Management Console</h3><span class="cert-tag">Cloud</span></article>
+        <article class="cert"><span class="issuer">IBM SkillsBuild</span><h3>Relational Database Management Systems</h3><span class="cert-tag">Data</span></article>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
   <section id="contact" class="section">
-    <div class="container container-narrow">
-      <p class="section-label">Contact</p>
-      <h2>Let's build something together.</h2>
-      <p class="about-text">
-        Whether you're hiring, collaborating, or just want to talk about a project —
-        I'd love to hear from you.
-      </p>
-      <div class="contact-links">
-        <a href="mailto:hello@example.com" class="btn btn-primary">Email me</a>
-        <a href="https://wa.me/27000000000" class="btn btn-ghost">WhatsApp</a>
-      </div>
-      <div class="socials">
-        <a href="#">Instagram</a>
-        <a href="#">LinkedIn</a>
-        <a href="#">GitHub</a>
+    <div class="wrap">
+      <div class="contact">
+        <p class="label">06 — Contact</p>
+        <h2>Let's make something <em>great.</em></h2>
+        <a href="mailto:precisionmalepa@gmail.com" class="big-mail">precisionmalepa@gmail.com</a>
+        <div class="contact-links">
+          <a href="https://www.linkedin.com/in/paballo-precision-malepa" target="_blank" rel="noopener" class="btn btn-ink">LinkedIn ↗</a>
+          <a href="https://github.com/precise18" target="_blank" rel="noopener" class="btn btn-white">GitHub ↗</a>
+        </div>
       </div>
     </div>
   </section>
 
-  <!-- ===== FOOTER ===== -->
+  </main>
+
   <footer class="footer">
-    <p>© <span id="year"></span> Paballo Precision Malepa. Built with care.</p>
+    <p>© <span id="year">2026</span> Paballo Precision Malepa · Johannesburg, South Africa</p>
   </footer>
 
+  <button class="to-top" aria-label="Back to top" hidden>↑</button>
   <script src="script.js"></script>
 </body>
 </html>
