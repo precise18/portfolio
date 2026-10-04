@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Paballo Precision Malepa — Software Developer</title>
+  <meta name="description" content="Software developer building purposeful tools for real people." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ===== NAVIGATION ===== -->
+  <header class="nav">
+    <div class="nav-inner">
+      <a href="#top" class="logo">Paballo<span>.</span></a>
+      <button class="menu-toggle" aria-label="Toggle menu">☰</button>
+      <nav class="nav-links">
+        <a href="#about">About</a>
+        <a href="#services">What I Do</a>
+        <a href="#work">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ===== HERO ===== -->
+  <section id="top" class="hero">
+    <div class="hero-inner">
+
+      <!-- Portrait photo -->
+      <div class="portrait">
+        <img src="images/paballo.jpg" alt="Portrait of Paballo Precision Malepa" />
+      </div>
+
+      <p class="eyebrow">Software Developer · South Africa</p>
+      <h1>Hi, I'm Paballo.<br>I build <em>software</em> that solves real problems.</h1>
+      <p class="hero-sub">
+        Purposeful tools, clean code, and a genuine interest in making things
+        that people actually need. Currently building, learning, and open to opportunities.
+      </p>
+      <div class="hero-cta">
+        <a href="#work" class="btn btn-primary">See my projects</a>
+        <a href="#contact" class="btn btn-ghost">Get in touch</a>
+      </div>
+    </div>
+    <div class="hero-blob"></div>
+  </section>
+
+  <!-- ===== ABOUT ===== -->
+  <section id="about" class="section">
+    <div class="container">
+      <p class="section-label">About</p>
+      <h2>A developer who cares about the why.</h2>
+      <p class="about-text">
+        I'm Paballo, a software developer based in South Africa. I build tools and
+        applications that solve real problems — the kind of software that makes
+        someone's day a little easier or a little clearer.
+      </p>
+      <p class="about-text">
+        I'm early in my journey, and I'm honest about that. What I bring is care,
+        attention to detail, and a genuine curiosity for how things work. I'd rather
+        build something thoughtful that someone actually uses than something flashy
+        that nobody needs.
+      </p>
+    </div>
+  </section>
+
+  <!-- ===== WHAT I DO ===== -->
+  <section id="services" class="section section-alt">
+    <div class="container">
+      <p class="section-label">What I Do</p>
+      <h2>How I can help.</h2>
+      <div class="grid grid-3">
+        <div class="card">
+          <div class="card-icon">✦</div>
+          <h3>Build Web Apps</h3>
+          <p>Front-end and full-stack applications — from idea to something people can open in a browser and use.</p>
+        </div>
+        <div class="card">
+          <div class="card-icon">✎</div>
+          <h3>Design & Structure</h3>
+          <p>Planning how software should work before writing a line of code. Wireframes, flows, and logic.</p>
+        </div>
+        <div class="card">
+          <div class="card-icon">♡</div>
+          <h3>Solve Small Problems</h3>
+          <p>Tools that make everyday tasks easier. If there's a problem worth solving, there's probably a small app for it.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== PROJECTS ===== -->
+  <section id="work" class="section">
+    <div class="container">
+      <p class="section-label">Projects</p>
+      <h2>Things I've built.</h2>
+
+      <div class="grid grid-2">
+
+        <!-- Project 1: GitTrack -->
+        <article class="project">
+          <div class="project-thumb project-thumb-pink">
+            <span>GitTrack</span>
+          </div>
+          <div class="project-body">
+            <span class="tag">Project</span>
+            <h3>GitTrack</h3>
+            <p>
+              A serverless analytics dashboard that tracks student coding activity —
+              commits and merge requests — in real time. Built for a Cloud Computing
+              elective to get hands-on experience with AWS architecture.
+            </p>
+            <p class="project-meta">AWS Lambda · API Gateway · DynamoDB · S3 · Serverless</p>
+            <a href="https://github.com/precise18/GitTrack.git" target="_blank" rel="noopener" class="project-link">View on GitHub →</a>
+          </div>
+        </article>
+
+        <!-- Project 2: Elective Compass -->
+        <article class="project">
+          <div class="project-thumb project-thumb-cream">
+            <span>Elective Compass</span>
+          </div>
+          <div class="project-body">
+            <span class="tag">Project</span>
+            <h3>Elective Compass</h3>
+            <p>
+              An NLP-powered recommendation tool that helps WeThinkCode students choose
+              their elective with evidence instead of guesswork. Matches course syllabi
+              to real job postings and calibrates results against survey data from 36 students.
+            </p>
+            <p class="project-meta">Python · Streamlit · TF-IDF · Cosine Similarity · NLP</p>
+            <a href="https://github.com/precise18/elective-compass.git" target="_blank" rel="noopener" class="project-link">View on GitHub →</a>
+          </div>
+        </article>
+
+        <!-- Placeholder: invites new clients/collaborators -->
+        <article class="project project-placeholder">
+          <div class="project-thumb project-thumb-cream">
+            <span>What's next?</span>
+          </div>
+          <div class="project-body">
+            <span class="tag tag-soft">Open</span>
+            <h3>Let's build something</h3>
+            <p>
+              This spot is waiting for the next project. If you have a problem worth
+              solving, or a team worth joining, let's talk.
+            </p>
+            <a href="#contact" class="project-link">Start a conversation →</a>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== SKILLS ===== -->
+  <section id="skills" class="section section-alt">
+    <div class="container">
+      <p class="section-label">Skills & Tools</p>
+      <h2>What I work with.</h2>
+      <ul class="skills">
+        <li>HTML & CSS</li>
+        <li>JavaScript</li>
+        <li>Python</li>
+        <li>Git & GitHub</li>
+        <li>Responsive Design</li>
+        <li>APIs</li>
+        <li>AWS (Lambda, S3, DynamoDB)</li>
+        <li>Problem Solving</li>
+        <li>Figma</li>
+        <li>Netlify / Vercel</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- ===== CONTACT ===== -->
+  <section id="contact" class="section">
+    <div class="container container-narrow">
+      <p class="section-label">Contact</p>
+      <h2>Let's build something together.</h2>
+      <p class="about-text">
+        Whether you're hiring, collaborating, or just want to talk about a project —
+        I'd love to hear from you.
+      </p>
+      <div class="contact-links">
+        <a href="mailto:hello@example.com" class="btn btn-primary">Email me</a>
+        <a href="https://wa.me/27000000000" class="btn btn-ghost">WhatsApp</a>
+      </div>
+      <div class="socials">
+        <a href="#">Instagram</a>
+        <a href="#">LinkedIn</a>
+        <a href="#">GitHub</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <p>© <span id="year"></span> Paballo Precision Malepa. Built with care.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
